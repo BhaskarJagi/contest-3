@@ -1,0 +1,47 @@
+.navbar-brand{
+    display: none;
+}
+@media (min-width: 400px )and ( max-width:1200px){
+    .navbar-brand{
+      display: inline-block;
+  }
+}
+.carousel-item img{
+    height: 80vh;
+}
+.container1,.accordion
+{
+    margin: 2%;
+}
+/* .container .row{
+    display: flex;
+} */
+.form{
+    margin: 2%;
+}
+.form p{
+    text-transform: capitalize ;
+   font-weight: bold;
+   font-size: 20px;
+}
+.form .row  {
+    margin: 2%  0;
+}
+.form .row button{
+    width: 150px;
+    background-color: blue;
+    color: white;
+}
+.table{
+    margin: 2%;
+}
+table a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 1%;
+}
+.card-body button{
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+}
